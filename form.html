@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burs Başvuru Formu</title>
+</head>
+<style>
+    a:hover {
+        color: red;
+    }
+
+    h2{background-color:darkgray; color:whitesmoke ;}
+    .yıldız label span{color:red;}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Anasayfa</a>
+            <a href="#">İletişim</a>
+            <a href="#">Canlı Yardım</a>
+        </nav>
+    </header>
+    <hr>
+
+    <fieldset>
+        <legend><b>Dokuz Eylül Üniversitesi</b></legend>
+        <h1 style="color: red; text-align: center;">
+            BURS BAŞVURU FORMU
+        </h1>
+        <p style="font-style: italic;">*:Doldurulması Zorunlu Alanlar</p>   
+
+        <hr>
+
+        <div class="yıldız">
+            <h2>Kişisel Bilgiler</h2>
+
+            <label for="name">* Adınız:</label>
+            <input type="text" name="Adınız">
+            <br>
+            <br>
+
+            <label for="last-name"><span>*</span> Soyadınız:</label>
+            <input type="text" name="Soyadınız">
+            <br>
+            <br>
+            <label for="age">* Yaşınız:</label>
+            <input type="number" name="Yaşınız" min="18" max="25">
+            <br>
+            <br>    
+            <label for="tcno">* TC No:</label>
+            <input type="text" name="tcno">
+            <br>
+            <br>
+
+            <label for="hobi">Hobileriniz:</label>
+            <input type="checkbox">Sinema
+            <input type="checkbox">Kitap
+            <input type="checkbox">Gezi
+        
+        </div>
+        <hr>
+        <div>
+    <h2>Öğrenim Bilgileri</h2>
+    
+
+        <label for="school">* Okulunuz:</label>
+        <input type="text" name="Okulunuz">
+        <br>
+        <br>
+        <label for="sınıfınız">* Sınıfınız</label>
+        <input type="radio" name="sınıf">1
+        <input type="radio" name="sınıf">2
+        <input type="radio" name="sınıf">3
+        <input type="radio" name="sınıf">4   
+        <br>
+        <br>
+
+        <label for="bölüm">* Bölümünüz:</label>
+        <input type="text" name="Bölümünüz">
+        <br>
+        <br>
+
+        <label for="adres">* Okulunuzun Adresi:</label>
+        <input type="text" name="adres">
+        <br>
+        <br>
+        <hr>
+    </div>
+    
+
+        <div>
+        <h2>İletişim Bilgileri</h2>
+
+        <label for="city">* Yaşadığınız Şehir</label>
+        <select>
+            <option>Ankara</option>
+            <option>İzmir</option>
+            <option>İstanbul</option>
+            <option>Bursa</option>
+
+            
+        </select>
+        <br>
+        <br>
+
+        <label for="number">* Numaranız:</label>
+        <input type="number" name="Numaranız">
+        <br>
+        <br>
+        <label for="mail">Mail:</label>
+        <input type="email" name="email" placeholder="Tercihen">
+        <br>
+        <br>
+
+        <label for="adresiniz">Adresiniz:</label>
+        <input type="text" name="adresiniz" placeholder="Tercihen">
+
+        <button>Kaydet</button>
+
+        <input type="submit">
+
+
+    </fieldset>
+</body>
+
+</html>
